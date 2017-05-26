@@ -12,6 +12,9 @@
 		4D65DA181ED54C8F0079B735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D65DA161ED54C8F0079B735 /* Main.storyboard */; };
 		4D65DA1A1ED54C8F0079B735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D65DA191ED54C8F0079B735 /* Assets.xcassets */; };
 		4D65DA1D1ED54C8F0079B735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D65DA1B1ED54C8F0079B735 /* LaunchScreen.storyboard */; };
+		4DD351901ED5898F00DB4653 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD3518F1ED5898F00DB4653 /* ProfileView.xib */; };
+		4DD351921ED58ADC00DB4653 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD351911ED58ADC00DB4653 /* ProfileView.swift */; };
+		4DD351941ED58B3700DB4653 /* haris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DD351931ED58B3700DB4653 /* haris.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		4D65DA191ED54C8F0079B735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D65DA1C1ED54C8F0079B735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D65DA1E1ED54C8F0079B735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD3518F1ED5898F00DB4653 /* ProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		4DD351911ED58ADC00DB4653 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4DD351931ED58B3700DB4653 /* haris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haris.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				4D65DA121ED54C8F0079B735 /* AppDelegate.swift */,
 				4D65DA141ED54C8F0079B735 /* ViewController.swift */,
+				4DD351931ED58B3700DB4653 /* haris.jpg */,
 				4D65DA161ED54C8F0079B735 /* Main.storyboard */,
 				4D65DA191ED54C8F0079B735 /* Assets.xcassets */,
 				4D65DA1B1ED54C8F0079B735 /* LaunchScreen.storyboard */,
 				4D65DA1E1ED54C8F0079B735 /* Info.plist */,
+				4DD3518F1ED5898F00DB4653 /* ProfileView.xib */,
+				4DD351911ED58ADC00DB4653 /* ProfileView.swift */,
 			);
 			path = AnimationDemo;
 			sourceTree = "<group>";
@@ -124,6 +133,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD351941ED58B3700DB4653 /* haris.jpg in Resources */,
+				4DD351901ED5898F00DB4653 /* ProfileView.xib in Resources */,
 				4D65DA1D1ED54C8F0079B735 /* LaunchScreen.storyboard in Resources */,
 				4D65DA1A1ED54C8F0079B735 /* Assets.xcassets in Resources */,
 				4D65DA181ED54C8F0079B735 /* Main.storyboard in Resources */,
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D65DA151ED54C8F0079B735 /* ViewController.swift in Sources */,
+				4DD351921ED58ADC00DB4653 /* ProfileView.swift in Sources */,
 				4D65DA131ED54C8F0079B735 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +316,7 @@
 				4D65DA231ED54C8F0079B735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
